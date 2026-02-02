@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { TaskCategory, AISuggestion } from "./types";
 
 // Always use new GoogleGenAI({apiKey: process.env.API_KEY})
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: 'AIzaSyAvrNoRXjWpfjWqYkM_WeIf6pHJLYywrhQ' });
 
 export const getTaskSuggestions = async (
   userName: string,
